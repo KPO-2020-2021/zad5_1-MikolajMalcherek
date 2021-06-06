@@ -12,6 +12,7 @@ CMakeFiles/main.dir/app/main.cpp.o
  ../include/lacze_do_gnuplota.hh
  ../include/prostopadloscian.hh
  ../include/size.hh
+ ../include/skrzydla_drona.hh
  /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/main.cpp
  /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/doctest/doctest.h
  exampleConfig.h

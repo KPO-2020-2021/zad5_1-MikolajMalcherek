@@ -135,12 +135,26 @@ CMakeFiles/program.dir/src/Bryla.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/Bryla.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Bryla.cpp -o CMakeFiles/program.dir/src/Bryla.cpp.s
 
+CMakeFiles/program.dir/src/skrzydla_drona.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/src/skrzydla_drona.cpp.o: ../src/skrzydla_drona.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/program.dir/src/skrzydla_drona.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/src/skrzydla_drona.cpp.o -c /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/skrzydla_drona.cpp
+
+CMakeFiles/program.dir/src/skrzydla_drona.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/src/skrzydla_drona.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/skrzydla_drona.cpp > CMakeFiles/program.dir/src/skrzydla_drona.cpp.i
+
+CMakeFiles/program.dir/src/skrzydla_drona.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/skrzydla_drona.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/skrzydla_drona.cpp -o CMakeFiles/program.dir/src/skrzydla_drona.cpp.s
+
 program: CMakeFiles/program.dir/src/example.cpp.o
 program: CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o
 program: CMakeFiles/program.dir/src/Macierz3x3.cpp.o
 program: CMakeFiles/program.dir/src/prostopadloscian.cpp.o
 program: CMakeFiles/program.dir/src/Scena.cpp.o
 program: CMakeFiles/program.dir/src/Bryla.cpp.o
+program: CMakeFiles/program.dir/src/skrzydla_drona.cpp.o
 program: CMakeFiles/program.dir/build.make
 
 .PHONY : program

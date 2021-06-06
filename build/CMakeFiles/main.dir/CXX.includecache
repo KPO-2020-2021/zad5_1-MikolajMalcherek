@@ -114,6 +114,10 @@ Bryla.hh
 
 ../include/size.hh
 
+../include/skrzydla_drona.hh
+Bryla.hh
+../include/Bryla.hh
+
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/main.cpp
 ../tests/doctest/doctest.h
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/doctest/doctest.h
@@ -151,6 +155,8 @@ Scena.hh
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/Scena.hh
 Bryla.hh
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/Bryla.hh
+skrzydla_drona.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/skrzydla_drona.hh
 
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/doctest/doctest.h
 signal.h

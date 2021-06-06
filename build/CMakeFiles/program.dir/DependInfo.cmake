@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/example.cpp" "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/example.cpp.o"
   "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/lacze_do_gnuplota.cpp" "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o"
   "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/prostopadloscian.cpp" "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/prostopadloscian.cpp.o"
+  "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/skrzydla_drona.cpp" "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/skrzydla_drona.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -739,6 +739,33 @@ src/prostopadloscian.cpp.s:
 	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/prostopadloscian.cpp.s
 .PHONY : src/prostopadloscian.cpp.s
 
+src/skrzydla_drona.o: src/skrzydla_drona.cpp.o
+
+.PHONY : src/skrzydla_drona.o
+
+# target to build an object file
+src/skrzydla_drona.cpp.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/skrzydla_drona.cpp.o
+.PHONY : src/skrzydla_drona.cpp.o
+
+src/skrzydla_drona.i: src/skrzydla_drona.cpp.i
+
+.PHONY : src/skrzydla_drona.i
+
+# target to preprocess a source file
+src/skrzydla_drona.cpp.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/skrzydla_drona.cpp.i
+.PHONY : src/skrzydla_drona.cpp.i
+
+src/skrzydla_drona.s: src/skrzydla_drona.cpp.s
+
+.PHONY : src/skrzydla_drona.s
+
+# target to generate assembly for a file
+src/skrzydla_drona.cpp.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/skrzydla_drona.cpp.s
+.PHONY : src/skrzydla_drona.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -802,6 +829,9 @@ help:
 	@echo "... src/prostopadloscian.o"
 	@echo "... src/prostopadloscian.i"
 	@echo "... src/prostopadloscian.s"
+	@echo "... src/skrzydla_drona.o"
+	@echo "... src/skrzydla_drona.i"
+	@echo "... src/skrzydla_drona.s"
 .PHONY : help
 
 

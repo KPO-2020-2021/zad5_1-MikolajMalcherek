@@ -43,3 +43,12 @@ CMakeFiles/program.dir/src/prostopadloscian.cpp.o: ../include/prostopadloscian.h
 CMakeFiles/program.dir/src/prostopadloscian.cpp.o: ../include/size.hh
 CMakeFiles/program.dir/src/prostopadloscian.cpp.o: ../src/prostopadloscian.cpp
 
+CMakeFiles/program.dir/src/skrzydla_drona.cpp.o: ../include/Bryla.hh
+CMakeFiles/program.dir/src/skrzydla_drona.cpp.o: ../include/Macierz.hh
+CMakeFiles/program.dir/src/skrzydla_drona.cpp.o: ../include/Macierz3x3.hh
+CMakeFiles/program.dir/src/skrzydla_drona.cpp.o: ../include/Wector.hh
+CMakeFiles/program.dir/src/skrzydla_drona.cpp.o: ../include/Wector3D.hh
+CMakeFiles/program.dir/src/skrzydla_drona.cpp.o: ../include/size.hh
+CMakeFiles/program.dir/src/skrzydla_drona.cpp.o: ../include/skrzydla_drona.hh
+CMakeFiles/program.dir/src/skrzydla_drona.cpp.o: ../src/skrzydla_drona.cpp
+

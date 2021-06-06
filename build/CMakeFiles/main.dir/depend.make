@@ -11,6 +11,7 @@ CMakeFiles/main.dir/app/main.cpp.o: ../include/example.h
 CMakeFiles/main.dir/app/main.cpp.o: ../include/lacze_do_gnuplota.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/prostopadloscian.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/size.hh
+CMakeFiles/main.dir/app/main.cpp.o: ../include/skrzydla_drona.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../app/main.cpp
 CMakeFiles/main.dir/app/main.cpp.o: ../tests/doctest/doctest.h
 CMakeFiles/main.dir/app/main.cpp.o: exampleConfig.h
