@@ -9,6 +9,18 @@ CMakeFiles/program.dir/src/Bryla.cpp.o: ../include/Wector3D.hh
 CMakeFiles/program.dir/src/Bryla.cpp.o: ../include/size.hh
 CMakeFiles/program.dir/src/Bryla.cpp.o: ../src/Bryla.cpp
 
+CMakeFiles/program.dir/src/Dron.cpp.o: ../include/Bryla.hh
+CMakeFiles/program.dir/src/Dron.cpp.o: ../include/Dron.hh
+CMakeFiles/program.dir/src/Dron.cpp.o: ../include/Macierz.hh
+CMakeFiles/program.dir/src/Dron.cpp.o: ../include/Macierz3x3.hh
+CMakeFiles/program.dir/src/Dron.cpp.o: ../include/Wector.hh
+CMakeFiles/program.dir/src/Dron.cpp.o: ../include/Wector3D.hh
+CMakeFiles/program.dir/src/Dron.cpp.o: ../include/lacze_do_gnuplota.hh
+CMakeFiles/program.dir/src/Dron.cpp.o: ../include/prostopadloscian.hh
+CMakeFiles/program.dir/src/Dron.cpp.o: ../include/size.hh
+CMakeFiles/program.dir/src/Dron.cpp.o: ../include/skrzydla_drona.hh
+CMakeFiles/program.dir/src/Dron.cpp.o: ../src/Dron.cpp
+
 CMakeFiles/program.dir/src/Macierz3x3.cpp.o: ../include/Macierz.hh
 CMakeFiles/program.dir/src/Macierz3x3.cpp.o: ../include/Macierz3x3.hh
 CMakeFiles/program.dir/src/Macierz3x3.cpp.o: ../include/Wector.hh

@@ -96,7 +96,8 @@ unit_tests_EXTERNAL_OBJECTS = \
 "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/prostopadloscian.cpp.o" \
 "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/Scena.cpp.o" \
 "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/Bryla.cpp.o" \
-"/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/skrzydla_drona.cpp.o"
+"/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/skrzydla_drona.cpp.o" \
+"/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/Dron.cpp.o"
 
 unit_tests: tests/CMakeFiles/unit_tests.dir/main.cpp.o
 unit_tests: tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o
@@ -107,6 +108,7 @@ unit_tests: CMakeFiles/program.dir/src/prostopadloscian.cpp.o
 unit_tests: CMakeFiles/program.dir/src/Scena.cpp.o
 unit_tests: CMakeFiles/program.dir/src/Bryla.cpp.o
 unit_tests: CMakeFiles/program.dir/src/skrzydla_drona.cpp.o
+unit_tests: CMakeFiles/program.dir/src/Dron.cpp.o
 unit_tests: tests/CMakeFiles/unit_tests.dir/build.make
 unit_tests: tests/CMakeFiles/unit_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../unit_tests"

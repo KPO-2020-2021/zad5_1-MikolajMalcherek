@@ -16,6 +16,14 @@ vector
 fstream
 -
 
+../include/Dron.hh
+prostopadloscian.hh
+../include/prostopadloscian.hh
+skrzydla_drona.hh
+../include/skrzydla_drona.hh
+lacze_do_gnuplota.hh
+../include/lacze_do_gnuplota.hh
+
 ../include/Macierz.hh
 size.hh
 ../include/size.hh
@@ -157,6 +165,8 @@ Bryla.hh
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/Bryla.hh
 skrzydla_drona.hh
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/skrzydla_drona.hh
+Dron.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/Dron.hh
 
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/doctest/doctest.h
 signal.h

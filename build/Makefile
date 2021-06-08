@@ -604,6 +604,33 @@ src/Bryla.cpp.s:
 	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Bryla.cpp.s
 .PHONY : src/Bryla.cpp.s
 
+src/Dron.o: src/Dron.cpp.o
+
+.PHONY : src/Dron.o
+
+# target to build an object file
+src/Dron.cpp.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Dron.cpp.o
+.PHONY : src/Dron.cpp.o
+
+src/Dron.i: src/Dron.cpp.i
+
+.PHONY : src/Dron.i
+
+# target to preprocess a source file
+src/Dron.cpp.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Dron.cpp.i
+.PHONY : src/Dron.cpp.i
+
+src/Dron.s: src/Dron.cpp.s
+
+.PHONY : src/Dron.s
+
+# target to generate assembly for a file
+src/Dron.cpp.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Dron.cpp.s
+.PHONY : src/Dron.cpp.s
+
 src/Macierz3x3.o: src/Macierz3x3.cpp.o
 
 .PHONY : src/Macierz3x3.o
@@ -814,6 +841,9 @@ help:
 	@echo "... src/Bryla.o"
 	@echo "... src/Bryla.i"
 	@echo "... src/Bryla.s"
+	@echo "... src/Dron.o"
+	@echo "... src/Dron.i"
+	@echo "... src/Dron.s"
 	@echo "... src/Macierz3x3.o"
 	@echo "... src/Macierz3x3.i"
 	@echo "... src/Macierz3x3.s"

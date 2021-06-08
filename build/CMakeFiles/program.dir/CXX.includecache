@@ -52,11 +52,7 @@ Wector.hh
 
 ../include/size.hh
 
-../include/skrzydla_drona.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Bryla.cpp
 Bryla.hh
-../include/Bryla.hh
-
-/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/skrzydla_drona.cpp
-skrzydla_drona.hh
-/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/skrzydla_drona.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Bryla.hh
 

@@ -9,6 +9,18 @@ CMakeFiles/program.dir/src/Bryla.cpp.o
  ../include/Wector3D.hh
  ../include/size.hh
  /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Bryla.cpp
+CMakeFiles/program.dir/src/Dron.cpp.o
+ ../include/Bryla.hh
+ ../include/Dron.hh
+ ../include/Macierz.hh
+ ../include/Macierz3x3.hh
+ ../include/Wector.hh
+ ../include/Wector3D.hh
+ ../include/lacze_do_gnuplota.hh
+ ../include/prostopadloscian.hh
+ ../include/size.hh
+ ../include/skrzydla_drona.hh
+ /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Dron.cpp
 CMakeFiles/program.dir/src/Macierz3x3.cpp.o
  ../include/Macierz.hh
  ../include/Macierz3x3.hh

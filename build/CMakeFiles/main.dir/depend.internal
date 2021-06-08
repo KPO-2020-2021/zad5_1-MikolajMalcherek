@@ -3,6 +3,7 @@
 
 CMakeFiles/main.dir/app/main.cpp.o
  ../include/Bryla.hh
+ ../include/Dron.hh
  ../include/Macierz.hh
  ../include/Macierz3x3.hh
  ../include/Scena.hh

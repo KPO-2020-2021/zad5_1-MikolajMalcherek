@@ -82,7 +82,8 @@ main_EXTERNAL_OBJECTS = \
 "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/prostopadloscian.cpp.o" \
 "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/Scena.cpp.o" \
 "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/Bryla.cpp.o" \
-"/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/skrzydla_drona.cpp.o"
+"/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/skrzydla_drona.cpp.o" \
+"/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/Dron.cpp.o"
 
 main: CMakeFiles/main.dir/app/main.cpp.o
 main: CMakeFiles/program.dir/src/example.cpp.o
@@ -92,6 +93,7 @@ main: CMakeFiles/program.dir/src/prostopadloscian.cpp.o
 main: CMakeFiles/program.dir/src/Scena.cpp.o
 main: CMakeFiles/program.dir/src/Bryla.cpp.o
 main: CMakeFiles/program.dir/src/skrzydla_drona.cpp.o
+main: CMakeFiles/program.dir/src/Dron.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/program.dir/src/Bryla.cpp.o"
+  "CMakeFiles/program.dir/src/Dron.cpp.o"
   "CMakeFiles/program.dir/src/Macierz3x3.cpp.o"
   "CMakeFiles/program.dir/src/Scena.cpp.o"
   "CMakeFiles/program.dir/src/example.cpp.o"
