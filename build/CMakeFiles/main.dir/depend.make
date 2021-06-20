@@ -3,11 +3,12 @@
 
 CMakeFiles/main.dir/app/main.cpp.o: ../include/Bryla.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/Dron.hh
-CMakeFiles/main.dir/app/main.cpp.o: ../include/Macierz.hh
-CMakeFiles/main.dir/app/main.cpp.o: ../include/Macierz3x3.hh
+CMakeFiles/main.dir/app/main.cpp.o: ../include/Matrix.hh
+CMakeFiles/main.dir/app/main.cpp.o: ../include/Matrix3x3.hh
+CMakeFiles/main.dir/app/main.cpp.o: ../include/Plaszczyzna.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/Scena.hh
-CMakeFiles/main.dir/app/main.cpp.o: ../include/Wector.hh
-CMakeFiles/main.dir/app/main.cpp.o: ../include/Wector3D.hh
+CMakeFiles/main.dir/app/main.cpp.o: ../include/Vector.hh
+CMakeFiles/main.dir/app/main.cpp.o: ../include/Vector3D.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/example.h
 CMakeFiles/main.dir/app/main.cpp.o: ../include/lacze_do_gnuplota.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/prostopadloscian.hh

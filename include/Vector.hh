@@ -7,6 +7,7 @@
 #include <stdexcept>
 #include <fstream>
 
+using namespace std;
 
 template <int Size>
 class Vector{
@@ -14,12 +15,37 @@ class Vector{
 private:
 
     double size[Size];     //Tablica wektora
+    static int lacznie; // zmienne sluzace do zliczania wektorow
+    static int aktualnie;
 
 public:
 
     Vector();
 
-    Vector(double tmp[Size]);
+    ~Vector(); // destruktor
+    
+    Vector(Vector<Size> &wektor)
+    {
+        for(int i = 0 ; i<Size ; i++)
+        size[i]=wektor.size[i];
+
+        aktualnie++;
+    }
+
+    constexpr Vector(const Vector &wektor)
+    {
+        for (int i = 0; i < Size; i++)
+            size[i] = wektor.size[i];
+        aktualnie++;
+    }
+    Vector &operator=(const Vector &wektor)     
+    {
+        for (int i = 0; i < Size; i++)
+            size[i] = wektor.size[i];
+        return *this;
+    }
+
+    Vector(double size[Size]);
 
     Vector<Size> operator + (const Vector<Size> &v);
 
@@ -29,15 +55,28 @@ public:
 
     double &operator [] (unsigned int index);
 
-
+    void info();
 
 
 };
 
 
+    template <int Size>
+    int Vector<Size>::lacznie = 0;
+
+    template <int Size>
+    int Vector<Size>::aktualnie = 0;
 
 
 
+
+
+template <int Size>
+void Vector<Size>::info()
+{
+    cout<<"Aktualnie obiektow: " << aktualnie << endl;
+    cout << "Lacznie obiektow: " << lacznie << endl;
+}
 
 
 /******************************************************************************
@@ -51,6 +90,8 @@ template <int Size>
 Vector<Size>::Vector() {
     for (int i = 0; i < Size; ++i) {
         size[i] = 0;
+        lacznie++;
+        aktualnie++;
     }
 }
 
@@ -66,8 +107,21 @@ template <int Size>
 Vector<Size>::Vector(double tmp[Size]) {
     for (int i = 0; i < Size; ++i) {
         size[i] = tmp[i];
+        lacznie++;
+        aktualnie++;
     }
 }
+
+
+
+template <int Size>
+Vector<Size>::~Vector()
+    {
+        aktualnie--;
+    }
+
+
+
 
 
 /******************************************************************************

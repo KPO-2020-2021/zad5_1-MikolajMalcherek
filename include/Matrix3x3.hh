@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Macierz.hh"
+#include "Matrix.hh"
 
 typedef Matrix<3> Matrix3x3;
 

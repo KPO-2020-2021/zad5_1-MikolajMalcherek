@@ -7,20 +7,20 @@
 #IncludeRegexTransform: 
 
 ../include/Bryla.hh
-Wector3D.hh
-../include/Wector3D.hh
-Macierz3x3.hh
-../include/Macierz3x3.hh
+Vector3D.hh
+../include/Vector3D.hh
+Matrix3x3.hh
+../include/Matrix3x3.hh
 vector
 -
 fstream
 -
 
-../include/Macierz.hh
+../include/Matrix.hh
 size.hh
 ../include/size.hh
-Wector.hh
-../include/Wector.hh
+Vector.hh
+../include/Vector.hh
 iostream
 -
 cstdlib
@@ -28,11 +28,11 @@ cstdlib
 cmath
 -
 
-../include/Macierz3x3.hh
-Macierz.hh
-../include/Macierz.hh
+../include/Matrix3x3.hh
+Matrix.hh
+../include/Matrix.hh
 
-../include/Wector.hh
+../include/Vector.hh
 size.hh
 ../include/size.hh
 iostream
@@ -46,9 +46,9 @@ stdexcept
 fstream
 -
 
-../include/Wector3D.hh
-Wector.hh
-../include/Wector.hh
+../include/Vector3D.hh
+Vector.hh
+../include/Vector.hh
 
 ../include/lacze_do_gnuplota.hh
 string
@@ -75,12 +75,12 @@ fstream
 -
 iomanip
 -
-Wector3D.hh
-../include/Wector3D.hh
-Macierz.hh
-../include/Macierz.hh
-Macierz3x3.hh
-../include/Macierz3x3.hh
+Vector3D.hh
+../include/Vector3D.hh
+Matrix.hh
+../include/Matrix.hh
+Matrix3x3.hh
+../include/Matrix3x3.hh
 lacze_do_gnuplota.hh
 ../include/lacze_do_gnuplota.hh
 Bryla.hh
@@ -175,8 +175,8 @@ unistd.h
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/vector_test.cpp
 ../tests/doctest/doctest.h
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/doctest/doctest.h
-Wector.hh
-/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/Wector.hh
+Vector.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/Vector.hh
 size.hh
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/size.hh
 stdio.h

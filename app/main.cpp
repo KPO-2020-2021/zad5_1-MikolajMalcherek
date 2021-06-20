@@ -25,34 +25,25 @@ users, this can be left out. */
 
 #include "exampleConfig.h"
 #include "example.h"
-#include "Macierz.hh"
-#include "Wector.hh"
-#include "Wector3D.hh"
-#include "Macierz3x3.hh"
+#include "Matrix.hh"
+#include "Vector.hh"
+#include "Vector3D.hh"
+#include "Matrix3x3.hh"
 #include "lacze_do_gnuplota.hh"
 #include "prostopadloscian.hh"
 #include "Scena.hh"
 #include "Bryla.hh"
-
+#include "skrzydla_drona.hh"
+#include "Dron.hh"
 
 int main() {
-        Vector3D wek;
+Scena plansza;
+Vector3D wektor_test;
 
-        prostopadloscian pr(wek);
-
-    PzG::LaczeDoGNUPlota Lacze;
-    Lacze.DodajNazwePliku("../dat/prostopadloscian.dat",PzG::RR_Ciagly,2);
-    Lacze.ZmienTrybRys(PzG::TR_3D);
-
-    Lacze.UstawZakresY(-155,155);
-    Lacze.UstawZakresX(-155,155);
-    Lacze.UstawZakresZ(-155,155);
-
-    pr.zapis_bryly();
-    Lacze.Rysuj();
-
-    while(1)
-    {
-
-    }
+wektor_test.info();
+while(plansza.opcje())
+{
+    plansza.rysowanie();
+    wektor_test.info();
 }
+} 

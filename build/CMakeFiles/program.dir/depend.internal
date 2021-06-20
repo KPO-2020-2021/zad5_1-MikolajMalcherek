@@ -3,40 +3,51 @@
 
 CMakeFiles/program.dir/src/Bryla.cpp.o
  ../include/Bryla.hh
- ../include/Macierz.hh
- ../include/Macierz3x3.hh
- ../include/Wector.hh
- ../include/Wector3D.hh
+ ../include/Matrix.hh
+ ../include/Matrix3x3.hh
+ ../include/Vector.hh
+ ../include/Vector3D.hh
  ../include/size.hh
  /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Bryla.cpp
 CMakeFiles/program.dir/src/Dron.cpp.o
  ../include/Bryla.hh
  ../include/Dron.hh
- ../include/Macierz.hh
- ../include/Macierz3x3.hh
- ../include/Wector.hh
- ../include/Wector3D.hh
+ ../include/Matrix.hh
+ ../include/Matrix3x3.hh
+ ../include/Vector.hh
+ ../include/Vector3D.hh
  ../include/lacze_do_gnuplota.hh
  ../include/prostopadloscian.hh
  ../include/size.hh
  ../include/skrzydla_drona.hh
  /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Dron.cpp
-CMakeFiles/program.dir/src/Macierz3x3.cpp.o
- ../include/Macierz.hh
- ../include/Macierz3x3.hh
- ../include/Wector.hh
+CMakeFiles/program.dir/src/Matrix3x3.cpp.o
+ ../include/Matrix.hh
+ ../include/Matrix3x3.hh
+ ../include/Vector.hh
  ../include/size.hh
- /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Macierz3x3.cpp
+ /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Matrix3x3.cpp
+CMakeFiles/program.dir/src/Plaszczyzna.cpp.o
+ ../include/Matrix.hh
+ ../include/Matrix3x3.hh
+ ../include/Plaszczyzna.hh
+ ../include/Vector.hh
+ ../include/Vector3D.hh
+ ../include/size.hh
+ /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Plaszczyzna.cpp
 CMakeFiles/program.dir/src/Scena.cpp.o
  ../include/Bryla.hh
- ../include/Macierz.hh
- ../include/Macierz3x3.hh
+ ../include/Dron.hh
+ ../include/Matrix.hh
+ ../include/Matrix3x3.hh
+ ../include/Plaszczyzna.hh
  ../include/Scena.hh
- ../include/Wector.hh
- ../include/Wector3D.hh
+ ../include/Vector.hh
+ ../include/Vector3D.hh
  ../include/lacze_do_gnuplota.hh
  ../include/prostopadloscian.hh
  ../include/size.hh
+ ../include/skrzydla_drona.hh
  /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Scena.cpp
 CMakeFiles/program.dir/src/example.cpp.o
  ../include/example.h
@@ -47,20 +58,20 @@ CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o
  /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/lacze_do_gnuplota.cpp
 CMakeFiles/program.dir/src/prostopadloscian.cpp.o
  ../include/Bryla.hh
- ../include/Macierz.hh
- ../include/Macierz3x3.hh
- ../include/Wector.hh
- ../include/Wector3D.hh
+ ../include/Matrix.hh
+ ../include/Matrix3x3.hh
+ ../include/Vector.hh
+ ../include/Vector3D.hh
  ../include/lacze_do_gnuplota.hh
  ../include/prostopadloscian.hh
  ../include/size.hh
  /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/prostopadloscian.cpp
 CMakeFiles/program.dir/src/skrzydla_drona.cpp.o
  ../include/Bryla.hh
- ../include/Macierz.hh
- ../include/Macierz3x3.hh
- ../include/Wector.hh
- ../include/Wector3D.hh
+ ../include/Matrix.hh
+ ../include/Matrix3x3.hh
+ ../include/Vector.hh
+ ../include/Vector3D.hh
  ../include/size.hh
  ../include/skrzydla_drona.hh
  /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/skrzydla_drona.cpp

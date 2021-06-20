@@ -11,9 +11,9 @@
 #include <iomanip>
 
 
-#include "Wector3D.hh"
-#include "Macierz.hh"
-#include "Macierz3x3.hh"
+#include "Vector3D.hh"
+#include "Matrix.hh"
+#include "Matrix3x3.hh"
 #include "lacze_do_gnuplota.hh"
 #include "Bryla.hh"
 
@@ -37,8 +37,11 @@ public:
  *
  */
 
-prostopadloscian(Vector3D wspol_srodka, double dlugosc_x=100 , double wysokosc_y=100, double glebokosc_z=100, std::string nazwa="../dat/prostopadloscian.dat");
+prostopadloscian(Vector3D wspol_srodka=Vector3D(), double dlugosc_x=30 , double wysokosc_y=30, double glebokosc_z=30, std::string nazwa="../dat/prostopadloscian.dat");
+
+~prostopadloscian(){delete dlugosci;}
+
 };
 
 
-#endif
+#endif 

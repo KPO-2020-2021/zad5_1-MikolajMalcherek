@@ -4,11 +4,12 @@
 CMakeFiles/main.dir/app/main.cpp.o
  ../include/Bryla.hh
  ../include/Dron.hh
- ../include/Macierz.hh
- ../include/Macierz3x3.hh
+ ../include/Matrix.hh
+ ../include/Matrix3x3.hh
+ ../include/Plaszczyzna.hh
  ../include/Scena.hh
- ../include/Wector.hh
- ../include/Wector3D.hh
+ ../include/Vector.hh
+ ../include/Vector3D.hh
  ../include/example.h
  ../include/lacze_do_gnuplota.hh
  ../include/prostopadloscian.hh

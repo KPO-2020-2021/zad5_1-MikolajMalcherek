@@ -7,51 +7,40 @@
 #include <filesystem>
 #include <vector>
 
-#include "Wector.hh"
-#include "Macierz.hh"
-#include "Macierz3x3.hh"
+#include "Vector.hh"
+#include "Matrix.hh"
+#include "Matrix3x3.hh"
 #include "prostopadloscian.hh"
 #include "lacze_do_gnuplota.hh"
+#include "Dron.hh"
+#include "Plaszczyzna.hh"
 
-
-
+#define ILOSC_DRONOW 3
 
 class Scena{
-    private:
-        /*! \brief  */
-        std::vector <prostopadloscian> wszystkie_prostopadlosciany;
-        
-        /*! \brief  */
-        std::vector <Matrix3x3> macierze_obrotu;
-
-        /*! \brief  */
-        std::vector <Vector3D> wektory_przesuniecia;
-
+    PzG::LaczeDoGNUPlota Lacze;
+    Dron *tablica_dronow[ILOSC_DRONOW]; //tablica dronow
+    Plaszczyzna *spod;
     public:
-        /*! \brief  */
-        Scena();
+    Scena(); //konstruktor bezparametryczny
+    
+/*!
+ * \brief Funkcja opcje()
+ *
+ * dzieki temu bedziemy dostawac sie do sterowania dronem, bool zwraca true albo false
+ */
+    bool opcje();
 
-        /*! \brief  */
-        ~Scena();
-        
-        /*! \brief  */
-        void ruszanie_prostopadloscianem(int index);
-        
-        /*! \brief  */
-        void update_matrix(Matrix3x3 const & mtx, int index);
 
-        /*! \brief  */
-        void update_vector(Vector3D const & vec,int index);
-        
-        /*! \brief  */
-        Matrix3x3 odczytajmacierz(int index);
-        
-        /*! \brief . */
-        const prostopadloscian & operator [] (unsigned int index) const;
 
-        /*! \brief  */
-        int ileprostopadloscianow();        
+/*!
+ * \brief Funkcja rysowanie()
+ *
+ * funkcja ktora bedzie rysowala cala scene
+ */
+    void rysowanie();  
 
-        /*! \brief  */
-        void dodaj_prostopad(Vector3D const & Apx0, double const & tra_OX, double const & tra_OY, double const & tra_OZ);
+
+~Scena();
+
 };

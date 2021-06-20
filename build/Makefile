@@ -631,32 +631,59 @@ src/Dron.cpp.s:
 	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Dron.cpp.s
 .PHONY : src/Dron.cpp.s
 
-src/Macierz3x3.o: src/Macierz3x3.cpp.o
+src/Matrix3x3.o: src/Matrix3x3.cpp.o
 
-.PHONY : src/Macierz3x3.o
+.PHONY : src/Matrix3x3.o
 
 # target to build an object file
-src/Macierz3x3.cpp.o:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Macierz3x3.cpp.o
-.PHONY : src/Macierz3x3.cpp.o
+src/Matrix3x3.cpp.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Matrix3x3.cpp.o
+.PHONY : src/Matrix3x3.cpp.o
 
-src/Macierz3x3.i: src/Macierz3x3.cpp.i
+src/Matrix3x3.i: src/Matrix3x3.cpp.i
 
-.PHONY : src/Macierz3x3.i
+.PHONY : src/Matrix3x3.i
 
 # target to preprocess a source file
-src/Macierz3x3.cpp.i:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Macierz3x3.cpp.i
-.PHONY : src/Macierz3x3.cpp.i
+src/Matrix3x3.cpp.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Matrix3x3.cpp.i
+.PHONY : src/Matrix3x3.cpp.i
 
-src/Macierz3x3.s: src/Macierz3x3.cpp.s
+src/Matrix3x3.s: src/Matrix3x3.cpp.s
 
-.PHONY : src/Macierz3x3.s
+.PHONY : src/Matrix3x3.s
 
 # target to generate assembly for a file
-src/Macierz3x3.cpp.s:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Macierz3x3.cpp.s
-.PHONY : src/Macierz3x3.cpp.s
+src/Matrix3x3.cpp.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Matrix3x3.cpp.s
+.PHONY : src/Matrix3x3.cpp.s
+
+src/Plaszczyzna.o: src/Plaszczyzna.cpp.o
+
+.PHONY : src/Plaszczyzna.o
+
+# target to build an object file
+src/Plaszczyzna.cpp.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Plaszczyzna.cpp.o
+.PHONY : src/Plaszczyzna.cpp.o
+
+src/Plaszczyzna.i: src/Plaszczyzna.cpp.i
+
+.PHONY : src/Plaszczyzna.i
+
+# target to preprocess a source file
+src/Plaszczyzna.cpp.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Plaszczyzna.cpp.i
+.PHONY : src/Plaszczyzna.cpp.i
+
+src/Plaszczyzna.s: src/Plaszczyzna.cpp.s
+
+.PHONY : src/Plaszczyzna.s
+
+# target to generate assembly for a file
+src/Plaszczyzna.cpp.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Plaszczyzna.cpp.s
+.PHONY : src/Plaszczyzna.cpp.s
 
 src/Scena.o: src/Scena.cpp.o
 
@@ -844,9 +871,12 @@ help:
 	@echo "... src/Dron.o"
 	@echo "... src/Dron.i"
 	@echo "... src/Dron.s"
-	@echo "... src/Macierz3x3.o"
-	@echo "... src/Macierz3x3.i"
-	@echo "... src/Macierz3x3.s"
+	@echo "... src/Matrix3x3.o"
+	@echo "... src/Matrix3x3.i"
+	@echo "... src/Matrix3x3.s"
+	@echo "... src/Plaszczyzna.o"
+	@echo "... src/Plaszczyzna.i"
+	@echo "... src/Plaszczyzna.s"
 	@echo "... src/Scena.o"
 	@echo "... src/Scena.i"
 	@echo "... src/Scena.s"

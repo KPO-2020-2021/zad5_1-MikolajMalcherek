@@ -7,10 +7,10 @@
 #IncludeRegexTransform: 
 
 ../include/Bryla.hh
-Wector3D.hh
-../include/Wector3D.hh
-Macierz3x3.hh
-../include/Macierz3x3.hh
+Vector3D.hh
+../include/Vector3D.hh
+Matrix3x3.hh
+../include/Matrix3x3.hh
 vector
 -
 fstream
@@ -23,12 +23,14 @@ skrzydla_drona.hh
 ../include/skrzydla_drona.hh
 lacze_do_gnuplota.hh
 ../include/lacze_do_gnuplota.hh
+unistd.h
+../include/unistd.h
 
-../include/Macierz.hh
+../include/Matrix.hh
 size.hh
 ../include/size.hh
-Wector.hh
-../include/Wector.hh
+Vector.hh
+../include/Vector.hh
 iostream
 -
 cstdlib
@@ -36,9 +38,19 @@ cstdlib
 cmath
 -
 
-../include/Macierz3x3.hh
-Macierz.hh
-../include/Macierz.hh
+../include/Matrix3x3.hh
+Matrix.hh
+../include/Matrix.hh
+
+../include/Plaszczyzna.hh
+Matrix3x3.hh
+../include/Matrix3x3.hh
+fstream
+-
+Vector3D.hh
+../include/Vector3D.hh
+vector
+-
 
 ../include/Scena.hh
 iostream
@@ -53,18 +65,22 @@ filesystem
 -
 vector
 -
-Wector.hh
-../include/Wector.hh
-Macierz.hh
-../include/Macierz.hh
-Macierz3x3.hh
-../include/Macierz3x3.hh
+Vector.hh
+../include/Vector.hh
+Matrix.hh
+../include/Matrix.hh
+Matrix3x3.hh
+../include/Matrix3x3.hh
 prostopadloscian.hh
 ../include/prostopadloscian.hh
 lacze_do_gnuplota.hh
 ../include/lacze_do_gnuplota.hh
+Dron.hh
+../include/Dron.hh
+Plaszczyzna.hh
+../include/Plaszczyzna.hh
 
-../include/Wector.hh
+../include/Vector.hh
 size.hh
 ../include/size.hh
 iostream
@@ -78,9 +94,9 @@ stdexcept
 fstream
 -
 
-../include/Wector3D.hh
-Wector.hh
-../include/Wector.hh
+../include/Vector3D.hh
+Vector.hh
+../include/Vector.hh
 
 ../include/example.h
 
@@ -109,12 +125,12 @@ fstream
 -
 iomanip
 -
-Wector3D.hh
-../include/Wector3D.hh
-Macierz.hh
-../include/Macierz.hh
-Macierz3x3.hh
-../include/Macierz3x3.hh
+Vector3D.hh
+../include/Vector3D.hh
+Matrix.hh
+../include/Matrix.hh
+Matrix3x3.hh
+../include/Matrix3x3.hh
 lacze_do_gnuplota.hh
 ../include/lacze_do_gnuplota.hh
 Bryla.hh
@@ -147,14 +163,14 @@ exampleConfig.h
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/exampleConfig.h
 example.h
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/example.h
-Macierz.hh
-/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/Macierz.hh
-Wector.hh
-/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/Wector.hh
-Wector3D.hh
-/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/Wector3D.hh
-Macierz3x3.hh
-/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/Macierz3x3.hh
+Matrix.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/Matrix.hh
+Vector.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/Vector.hh
+Vector3D.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/Vector3D.hh
+Matrix3x3.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/Matrix3x3.hh
 lacze_do_gnuplota.hh
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/app/lacze_do_gnuplota.hh
 prostopadloscian.hh

@@ -9,12 +9,15 @@
  */
 
 
+void Bryla::ustawianie_nazwy_bryly(std::string nazwa)
+{
+    this->nazwa = nazwa;
+}
+
 std::string Bryla::wysylanie_nazwy_bryly() const
 {
     return nazwa;
 }
-
-
 
 /** \brief Metoda wpisujaca do bryly wspolrzedne jej srodka
  * 
@@ -48,39 +51,34 @@ Vector3D Bryla::wysylanie_wspol_srodka() const
  * @return wspol_srodka
  */
 
-/*
+
 void Bryla::przemieszczenie(Vector3D wek_przesuniecia)
 {
         for(int i=0; i<(int)wspol_wierzholkow.size(); i++)
         {
             wspol_wierzholkow[i]=wspol_wierzholkow[i]+wek_przesuniecia;
         }
-
+        wspol_srodka=wspol_srodka+wek_przesuniecia; // aby srodek przesuwal sie razem z cala bryla
 }
-*/
 
-/*
-void obrot(Matrix3x3 macierz_obrotu); 
+
+
+void Bryla::obrot(Matrix3x3 macierz_obrotu)
 {
       for(int i=0; i<(int)wspol_wierzholkow.size(); i++)
         {
-            wspol_wierzholkow[i]=;
+            wspol_wierzholkow[i]= macierz_obrotu* wspol_wierzholkow[i];
         }
-
+        wspol_srodka=macierz_obrotu*wspol_srodka;// aby srodek przesuwal sie razem z cala bryla
 }
-*/
 
 
 
 
 
 
-/** \brief Metoda przemieszczenia i obortu bryly o dany wektor i macierz, petla powtarza sie tak duzo razy, ile jest wierzcholkow w bryle
- *ilosc wierzcholkow bryly mozna sprawdzic za pomoca wbudowanej funkcji size dla utworzonego kontenera danych w klasie Bryla.hh 
- *                           a nastepnie dokonujemy rzutowania na zmienna int otrzymanej wartosci
- * 
- * @return wspol_srodka
- */
+
+/** 
 void Bryla::przemieszczenie_i_obrot(Vector3D wektor_przes,Matrix3x3 macierz_obrotu)
 {
         for (int i = 0; i < (int)wspol_wierzholkow.size(); ++i)
@@ -89,7 +87,7 @@ void Bryla::przemieszczenie_i_obrot(Vector3D wektor_przes,Matrix3x3 macierz_obro
         }
 
 }
-
+*/
 
 
 
@@ -124,5 +122,16 @@ void Bryla::zapis_bryly()
         }
         plik_z_prostopadloscianem<<wspol_srodka-przesuniecie_srodka<<std::endl<<std::endl;
 
-
+    plik_z_prostopadloscianem.close();
 }
+
+
+
+Vector3D &Bryla::operator[](int numer_indeksu)
+    {
+        return wspol_wierzholkow[numer_indeksu];
+    }
+Vector3D Bryla::operator[](int numer_indeksu) const
+    {
+        return wspol_wierzholkow[numer_indeksu];
+    }

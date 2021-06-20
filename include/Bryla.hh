@@ -1,8 +1,8 @@
 #ifndef BRYLA_HH
 #define BRYLA_HH
 
-#include "Wector3D.hh"
-#include "Macierz3x3.hh"
+#include "Vector3D.hh"
+#include "Matrix3x3.hh"
 #include <vector>
 #include <fstream>
 
@@ -17,6 +17,16 @@ class Bryla
 
 
     public:
+
+    Vector3D &operator[](int numer_indeksu);
+
+    Vector3D operator[](int numer_indeksu) const;
+
+
+    void ustawianie_nazwy_bryly(std::string nazwa);
+
+
+
     std::string wysylanie_nazwy_bryly() const;
 
 
@@ -24,16 +34,18 @@ class Bryla
     void ustawianie_wspol_srodka(Vector3D wspol_srodka); 
     Vector3D wysylanie_wspol_srodka() const;
    
-    
+    void przemieszczenie(Vector3D wek_przesuniecia);
+    void obrot(Matrix3x3 macierz_obrotu);
+    /*  Rozwiazanie z obrotow 3D
+
     void przemieszczenie_i_obrot(Vector3D wek_przesuniecia,Matrix3x3 macierz_obrotu);
 
+    */
 
 
     void zapis_bryly();
 
-
- //   void obrot(Matrix3x3 macierz_obrotu); 
-
+    ~Bryla(){delete dlugosci;}
 
 };
 

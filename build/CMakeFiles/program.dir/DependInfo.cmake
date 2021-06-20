@@ -6,7 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Bryla.cpp" "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/Bryla.cpp.o"
   "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Dron.cpp" "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/Dron.cpp.o"
-  "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Macierz3x3.cpp" "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/Macierz3x3.cpp.o"
+  "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Matrix3x3.cpp" "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/Matrix3x3.cpp.o"
+  "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Plaszczyzna.cpp" "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/Plaszczyzna.cpp.o"
   "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Scena.cpp" "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/Scena.cpp.o"
   "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/example.cpp" "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/example.cpp.o"
   "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/lacze_do_gnuplota.cpp" "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o"

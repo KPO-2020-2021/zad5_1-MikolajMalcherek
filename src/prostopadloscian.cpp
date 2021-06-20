@@ -1,5 +1,5 @@
 #include "prostopadloscian.hh"
-#include "Wector.hh"
+#include "Vector.hh"
 
 
 
@@ -72,3 +72,11 @@ prostopadloscian::prostopadloscian(Vector3D wspol_srodka, double dlugosc_x ,doub
     wspol_wierzholkow.push_back(wspolrzedne);
 
 }
+
+
+/** \brief Konstruktor kopiujacy klasy prostopadloscian
+ * 
+ * @return prostopadloscian
+ */
+
+

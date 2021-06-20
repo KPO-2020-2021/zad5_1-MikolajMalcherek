@@ -16,8 +16,8 @@
 },
 {
   "directory": "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build -I/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/include -I/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Macierz3x3.cpp.o -c /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Macierz3x3.cpp",
-  "file": "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Macierz3x3.cpp"
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build -I/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/include -I/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Matrix3x3.cpp.o -c /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Matrix3x3.cpp",
+  "file": "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Matrix3x3.cpp"
 },
 {
   "directory": "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build",
@@ -43,6 +43,11 @@
   "directory": "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build",
   "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build -I/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/include -I/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Dron.cpp.o -c /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Dron.cpp",
   "file": "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Dron.cpp"
+},
+{
+  "directory": "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build -I/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/include -I/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Plaszczyzna.cpp.o -c /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Plaszczyzna.cpp",
+  "file": "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/src/Plaszczyzna.cpp"
 },
 {
   "directory": "/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/build/tests",

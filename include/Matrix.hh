@@ -1,7 +1,7 @@
 #pragma once
 
 #include "size.hh"
-#include "Wector.hh"
+#include "Vector.hh"
 #include <iostream>
 #include <cstdlib>
 #include <cmath>

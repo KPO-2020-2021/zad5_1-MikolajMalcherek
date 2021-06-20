@@ -1,7 +1,7 @@
 #pragma once
 
-#include "Macierz.hh"
-#include "Wector3D.hh"
+#include "Matrix.hh"
+#include "Vector3D.hh"
 
 typedef Matrix<4> Matrix4x4;
 

@@ -1,4 +1,4 @@
-#include "Macierz3x3.hh"
+#include "Matrix3x3.hh"
 
 
 /**         
