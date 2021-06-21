@@ -163,10 +163,10 @@ void Dron::kierowanie()
             for(int i=0; i<kat; i++)  //animacja obrotu co jeden, odpowiednio opozniona, aby efekt byl widoczny
             {
                 kopia_widoczna_na_ekranie = oryginal;
-                for(int i=0; i < 4 ; i++)
-                    kopia_widoczna_na_ekranie[i]=oryginal[i];
+                for(int j=0; j < 4 ; j++)
+                    kopia_widoczna_na_ekranie[j]=oryginal[j];
                 obracanie(1);
-                //obrot_smigiel();
+                obrot_smigiel();
                 zapisz();
                 Lacze.Rysuj();
                 usleep(20000);
@@ -177,11 +177,9 @@ void Dron::kierowanie()
             for(int i=0; i>kat;i--)
             {
                 kopia_widoczna_na_ekranie=oryginal;
-                for(int i=0; i < 4 ; i++)
-                    kopia_widoczna_na_ekranie[i]=oryginal[i];
                     
                 obracanie(-1);
-                //obrot_smigiel();
+                obrot_smigiel();
                 zapisz();
                 Lacze.Rysuj();
                 usleep(20000);

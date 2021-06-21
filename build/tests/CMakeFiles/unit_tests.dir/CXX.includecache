@@ -16,6 +16,16 @@ vector
 fstream
 -
 
+../include/Dron.hh
+prostopadloscian.hh
+../include/prostopadloscian.hh
+skrzydla_drona.hh
+../include/skrzydla_drona.hh
+lacze_do_gnuplota.hh
+../include/lacze_do_gnuplota.hh
+unistd.h
+../include/unistd.h
+
 ../include/Matrix.hh
 size.hh
 ../include/size.hh
@@ -31,6 +41,44 @@ cmath
 ../include/Matrix3x3.hh
 Matrix.hh
 ../include/Matrix.hh
+
+../include/Plaszczyzna.hh
+Matrix3x3.hh
+../include/Matrix3x3.hh
+fstream
+-
+Vector3D.hh
+../include/Vector3D.hh
+vector
+-
+
+../include/Scena.hh
+iostream
+-
+fstream
+-
+cmath
+-
+iomanip
+-
+filesystem
+-
+vector
+-
+Vector.hh
+../include/Vector.hh
+Matrix.hh
+../include/Matrix.hh
+Matrix3x3.hh
+../include/Matrix3x3.hh
+prostopadloscian.hh
+../include/prostopadloscian.hh
+lacze_do_gnuplota.hh
+../include/lacze_do_gnuplota.hh
+Dron.hh
+../include/Dron.hh
+Plaszczyzna.hh
+../include/Plaszczyzna.hh
 
 ../include/Vector.hh
 size.hh
@@ -87,6 +135,10 @@ Bryla.hh
 ../include/Bryla.hh
 
 ../include/size.hh
+
+../include/skrzydla_drona.hh
+Bryla.hh
+../include/Bryla.hh
 
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/doctest/doctest.h
 signal.h
@@ -183,4 +235,16 @@ stdio.h
 -
 prostopadloscian.hh
 /home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/prostopadloscian.hh
+skrzydla_drona.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/skrzydla_drona.hh
+Scena.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/Scena.hh
+Plaszczyzna.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/Plaszczyzna.hh
+Matrix.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/Matrix.hh
+Dron.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/Dron.hh
+Bryla.hh
+/home/malcher9/programowanie_obiektowe/zad5_1-MikolajMalcherek/tests/Bryla.hh
 

@@ -7,7 +7,7 @@
   Macierz potrzebna do obrotu wokol osi OZ
 */
 
-Matrix3x3 Wypelnianie_macierzy_OX (double const kat){
+Matrix3x3 Wypelnianie_macierzy_OX (double kat){
     Matrix3x3 macierz_rotacji;
     double kat_w_radianach = kat* M_PI / 180.0;
     macierz_rotacji(0,0) = 1;
@@ -28,7 +28,7 @@ Matrix3x3 Wypelnianie_macierzy_OX (double const kat){
 
   Macierz potrzebna do obrotu wokol osi OZ
 */
-Matrix3x3 Wypelnianie_macierzy_OY (double const kat){
+Matrix3x3 Wypelnianie_macierzy_OY (double kat){
     Matrix3x3 macierz_rotacji;
     double kat_w_radianach = kat * M_PI / 180.0;
     macierz_rotacji(0,0) = cos(kat_w_radianach);
@@ -48,7 +48,7 @@ Matrix3x3 Wypelnianie_macierzy_OY (double const kat){
 */
 
 
-Matrix3x3 Wypelnianie_macierzy_OZ (double const angle){
+Matrix3x3 Wypelnianie_macierzy_OZ (double angle){
     Matrix3x3 rotation_matrix;
     double angle_radians = angle * M_PI / 180.0;
     rotation_matrix(0,0) = cos(angle_radians);

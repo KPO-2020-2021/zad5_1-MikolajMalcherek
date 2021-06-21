@@ -5,13 +5,17 @@ tests/CMakeFiles/unit_tests.dir/main.cpp.o: ../tests/doctest/doctest.h
 tests/CMakeFiles/unit_tests.dir/main.cpp.o: ../tests/main.cpp
 
 tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../include/Bryla.hh
+tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../include/Dron.hh
 tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../include/Matrix.hh
 tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../include/Matrix3x3.hh
+tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../include/Plaszczyzna.hh
+tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../include/Scena.hh
 tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../include/Vector.hh
 tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../include/Vector3D.hh
 tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../include/lacze_do_gnuplota.hh
 tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../include/prostopadloscian.hh
 tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../include/size.hh
+tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../include/skrzydla_drona.hh
 tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../tests/doctest/doctest.h
 tests/CMakeFiles/unit_tests.dir/vector_test.cpp.o: ../tests/vector_test.cpp
 

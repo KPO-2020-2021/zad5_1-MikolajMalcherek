@@ -67,7 +67,7 @@ void Bryla::obrot(Matrix3x3 macierz_obrotu)
 {
       for(int i=0; i<(int)wspol_wierzholkow.size(); i++)
         {
-            wspol_wierzholkow[i]= macierz_obrotu* wspol_wierzholkow[i];
+            wspol_wierzholkow[i]= (macierz_obrotu* wspol_wierzholkow[i]);
         }
         wspol_srodka=macierz_obrotu*wspol_srodka;// aby srodek przesuwal sie razem z cala bryla
 }

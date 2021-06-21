@@ -34,26 +34,36 @@ public:
 
     constexpr Vector(const Vector &wektor)
     {
-        for (int i = 0; i < Size; i++)
+        for(int i = 0; i < Size; i++)
             size[i] = wektor.size[i];
         aktualnie++;
     }
     Vector &operator=(const Vector &wektor)     
     {
-        for (int i = 0; i < Size; i++)
+        for(int i = 0; i < Size; i++)
             size[i] = wektor.size[i];
         return *this;
     }
 
+    Vector &operator=(const float &tmp)
+    {
+        for(int i=0 ; i<Size ; i++)
+        {
+            size[i]=tmp;
+        }
+
+            return *this;
+    }
+
     Vector(double size[Size]);
 
-    Vector<Size> operator + (const Vector<Size> &v);
+    Vector<Size> operator + (Vector<Size> &v);
 
-    Vector<Size> operator - (const Vector<Size> &v);
+    Vector<Size> operator - (Vector<Size> &v);
 
-    const double &operator [] (unsigned int index) const;
+    const double &operator [] (int index) const;
 
-    double &operator [] (unsigned int index);
+    double &operator [] (int index);
 
     void info();
 
@@ -134,7 +144,7 @@ Vector<Size>::~Vector()
  |      na parametr.                                                          |
  */
 template <int Size>
-Vector<Size> Vector<Size>::operator + (const Vector<Size> &v) {
+Vector<Size> Vector<Size>::operator + (Vector<Size> &v) {
     Vector<Size> result;
     for (int i = 0; i < Size; ++i) {
         result[i] = size[i] + v[i];
@@ -153,7 +163,7 @@ Vector<Size> Vector<Size>::operator + (const Vector<Size> &v) {
  |      na parametr.                                                          |
  */
 template <int Size>
-Vector<Size> Vector<Size>::operator - (const Vector<Size> &v) {
+Vector<Size> Vector<Size>::operator - (Vector<Size> &v) {
     Vector<Size> result;
     for (int i = 0; i < Size; ++i) {
         result[i] = size[i] - v[i];
@@ -172,7 +182,7 @@ Vector<Size> Vector<Size>::operator - (const Vector<Size> &v) {
  |      Wartosc wektora w danym miejscu tablicy jako stala.                   |
  */
 template <int Size>
-const double &Vector<Size>::operator [] (unsigned int index) const {
+const double &Vector<Size>::operator [] (int index) const {
     if (index < 0 || index >= Size) {
         throw "Error: Wektor jest poza zasiegiem!" ;
     } // lepiej byłoby rzucić wyjątkiem stdexcept
@@ -188,7 +198,7 @@ const double &Vector<Size>::operator [] (unsigned int index) const {
  |      Wartosc wektora w danym miejscu tablicy.                              |
  */
 template <int Size>
-double &Vector<Size>::operator[](unsigned int index) {
+double &Vector<Size>::operator[](int index) {
     return const_cast<double &>(const_cast<const Vector<Size> *>(this)->operator[](index));
 }
 

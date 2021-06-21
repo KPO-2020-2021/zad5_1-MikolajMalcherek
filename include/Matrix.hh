@@ -29,19 +29,19 @@ public:
 
     Matrix();                               // Konstruktor klasy
 
-    Vector<Size> operator * (Vector<Size> const &tmp);           // Operator mnożenia przez wektor
+    Vector<Size> operator * (Vector<Size> tmp);           // Operator mnożenia przez wektor
 
     Matrix<Size> operator + (Matrix<Size> const &tmp);
 
-    double  &operator () (int row, int column);
+    double  operator () (int row, int column) const;
     
-    const double &operator () (int row, int column) const;
+    double &operator () (int row, int column);
 
     double wyznacznikgaussa();
 
     
 
-    Matrix<Size> operator * (Matrix<Size> const &tmp);
+    Matrix<Size> operator * (Matrix<Size> tmp);
 };
 
 template <unsigned int Size>
@@ -107,7 +107,7 @@ Matrix<Size>::Matrix(double tmp[Size][Size]) {
  |      Iloczyn dwoch skladnikow przekazanych jako wektor.                    |
  */
 template <int Size>
-Vector<Size> Matrix<Size>::operator * (Vector<Size> const &tmp) {
+Vector<Size> Matrix<Size>::operator *(Vector<Size> tmp) {
     Vector<Size> result;
     for (int i = 0; i < Size; ++i) {
         for (int j = 0; j < Size; ++j) {
@@ -128,7 +128,8 @@ Vector<Size> Matrix<Size>::operator * (Vector<Size> const &tmp) {
  |      Wartosc macierzy w danym miejscu tablicy.                             |
  */
 template <int Size>
-double &Matrix<Size>::operator()(int row, int column) {
+double Matrix<Size>::operator()(int row, int column) const
+{
 
     if (row >= Size) {
         throw "Error: Macierz jest poza zasiegiem"; 
@@ -153,7 +154,7 @@ double &Matrix<Size>::operator()(int row, int column) {
  |      Wartosc macierzy w danym miejscu tablicy jako stala.                  |
  */
 template <int Size>
-const double &Matrix<Size>::operator () (int row, int column) const {
+double &Matrix<Size>::operator () (int row, int column) {
 
     if (row >= Size) {
         throw "Error: Macierz jest poza zasiegiem";
@@ -287,7 +288,7 @@ double Matrix<Size>::wyznacznikgaussa()
 /*       Mnozenie macierzy przez macierz       */
 
 template <int Size>
-Matrix<Size> Matrix<Size>::operator * (Matrix<Size> const & tmp){
+Matrix<Size> Matrix<Size>::operator * (Matrix<Size> tmp){
     Matrix<Size> result;
     for(int i = 0; i < Size; ++i){
         for(int j = 0; j < Size; ++j){    
