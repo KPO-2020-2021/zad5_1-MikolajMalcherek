@@ -83,6 +83,7 @@ Aby sprawdzic, czy dron sie przesuwa
  */
 void Dron::kierowanie()
 {
+    int zmienna = 1;
     double droga;
     double kat;
     char wybor;
@@ -158,34 +159,22 @@ void Dron::kierowanie()
         case 'o':
         std::cout<<"Podaj kat: ";
         std::cin>>kat;
-        if(kat>0)
-        {
-            for(int i=0; i<kat; i++)  //animacja obrotu co jeden, odpowiednio opozniona, aby efekt byl widoczny
+        
+            if(kat>0) 
+            zmienna=-1;
+            for(int i=0; i<abs(kat); i++)  //animacja obrotu co jeden, odpowiednio opozniona, aby efekt byl widoczny
             {
                 kopia_widoczna_na_ekranie = oryginal;
                 for(int j=0; j < 4 ; j++)
-                    kopia_widoczna_na_ekranie[j]=oryginal[j];
-                obracanie(1);
+                    kopia_smigla[j]=oryginal_smigla[j];
+                obracanie(zmienna);
                 obrot_smigiel();
                 zapisz();
                 Lacze.Rysuj();
                 usleep(20000);
             }
-        }
-        else
-        {
-            for(int i=0; i>kat;i--)
-            {
-                kopia_widoczna_na_ekranie=oryginal;
-                    
-                obracanie(-1);
-                obrot_smigiel();
-                zapisz();
-                Lacze.Rysuj();
-                usleep(20000);
-            }
-        }
-    
+
+            
     
         break;
     
